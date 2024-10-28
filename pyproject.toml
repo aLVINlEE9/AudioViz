@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "audio-visualizer"
+version = "0.1.0"
+description = "Transform audio into visual stories using AI. Convert spoken content into auto-generated images with timestamps."
+authors = ["aLVINlEE9 <fldh3746@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openai = "^1.52.2"
+anthropic = "^0.37.1"
+python-dotenv = "^1.0.1"
+pydub = "^0.25.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
